@@ -6,41 +6,35 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #74ebd5, #9face6);
+  background: #1e1e2f;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
-  background-color: white;
-  padding: 40px;
-  border-radius: 15px;
+.card {
+  background: #2a2a40;
+  padding: 30px;
+  border-radius: 16px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  max-width: 350px;
 }
 
-h1 {
-  margin-bottom: 15px;
-  color: #333;
-}
-
-p {
+.card img {
+  width: 220px;
+  max-width: 100%;
   margin-bottom: 20px;
-  color: #555;
 }
 
-button {
-  padding: 10px 20px;
-  border: none;
-  background-color: #4a90e2;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
+.card h1 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.card p {
+  color: #cfcfe6;
   font-size: 16px;
-}
-
-button:hover {
-  background-color: #357abd;
 }
